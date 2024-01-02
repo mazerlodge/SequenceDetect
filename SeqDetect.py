@@ -8,3 +8,5 @@ if (not sde.bInitOK):
 	sys.exit()
 else:
 	sde.go()
+
+# Test change from MDT laptop
