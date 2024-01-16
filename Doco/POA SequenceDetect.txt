@@ -1,0 +1,77 @@
+POA SequenceDetect 
+
+Original Notes from Field Notes 20231223 Pg 35
+
+Py to detect sequence 
+
+Given an Integer, reply T/F if it is a sequence or not. 
+
+Invocation: SeqCheck 456 
+Response: True 
+
+Q: ArgParser? 
+	A: Not in v1 
+	
+Code Notes: 
+- Determine # digits 
+	def countDigits() 
+	
+- Integer division in python is via // operator
+
+- getInput() 
+
+- countDigits(inNum) 
+
+- curDig = 0 
+  for currDigIdx in range(maxNumDigits, 1, -1) 
+	denom = 10 ** CurrDigitIdx 
+	currDig = in Num 
+	if currDig > 0:
+		break
+		
+	digAry[...  {end of note}
+	
+- countDigits(inNum) 
+	returns numDigits 
+	
+- isSequence(inNum) 
+	returns T/F 
+	
+- showUsage() 
+	returns sample call 
+	
+- parseArgs() 
+	returns T/F, pops. member inNum
+	
+	
+SegCount Py
+-------------
+Code to count number of LED segments used in a time display 
+	1:00 -> 12:59
+	
+Subchallenge - How to count up w/ minutes going from 59 to 00 
+
+Process: 
+	- Count up for 100 -> 1259 
+		(note: jump from minute 59 to 00) 
+			for loop hour, for/break or while minutes 
+			
+	- Pre-store digit to segCount conversion 
+		1=2, digit	0 1 2 3 4 5 6 7 8 9
+		     segCt	6 2 5 5 4 5 6 3 7 6
+			 
+		Note: put zer first & just store segCt, more eff. than dictionary
+		Ed: good blog post comparing approaches 
+		
+	- getSegCt(digit) method, self explanatory  
+	
+	- getDigitsFromTime(hour, min) 
+		return/pop. array[3] ints 
+		
+	- Output options 
+		List of times & segCounts (rows 720?) 
+		min/max/mode/avg 
+		
+	- Optional organization/filing 
+		Put this w/ segCheck in a Digital Clock Display (?) Project.
+	
