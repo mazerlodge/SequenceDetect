@@ -74,4 +74,6 @@ Process:
 		
 	- Optional organization/filing 
 		Put this w/ segCheck in a Digital Clock Display (?) Project.
-	
+		
+
+Test modification of this file to see if git config user.name is set correctly. 
