@@ -1,5 +1,24 @@
 POA SequenceDetect 
 
+
+==== Activity Log ====
+
+== 2023 ==
+12/27 
+	- Init git
+
+== 2024 == 
+01/02 
+	- Tested change from MDT Laptop.
+	
+02/04
+	- Updated POA file format
+	- Removed test comment from SeqDetect.Py
+	- Fleshed out parseArgs() method
+	- Added debugMsg() method to SeqDetect (but not parsing --debug, yet) 
+
+
+==== Notes ===
 Original Notes from Field Notes 20231223 Pg 35
 
 Py to detect sequence 

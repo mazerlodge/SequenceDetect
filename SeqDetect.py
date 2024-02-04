@@ -9,4 +9,3 @@ if (not sde.bInitOK):
 else:
 	sde.go()
 
-# Test change from MDT laptop
