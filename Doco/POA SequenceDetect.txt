@@ -17,8 +17,12 @@ POA SequenceDetect
 	- Fleshed out parseArgs() method
 	- Added debugMsg() method to SeqDetect (but not parsing --debug, yet) 
 
+03/01
+	- Implemented countDigits 
+	- Began isSequence(), populated digitArray and outputs it.
 
-==== Notes ===
+
+==== Original Notes ===
 Original Notes from Field Notes 20231223 Pg 35
 
 Py to detect sequence 

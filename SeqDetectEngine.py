@@ -3,7 +3,7 @@ import sys
 class SeqDetectEngine: 
 
 	bInitOK = False
-	bInDebug = False
+	bInDebug = True
 	rawNumber = 0
 
 	def __init__(self, args): 
@@ -29,13 +29,30 @@ class SeqDetectEngine:
 		print("Usage: SeqDetect 456 (returns True).\nSeqDetect 457 (returns False)")
 	
 	def countDigits(self, inNum):
-		print("countDigits() Not yet implemented")
+		return len(str(inNum))
 		
 	def isSequence(self, inNum): 
-		print("isSequence() Not yet implemented")
+		numLength = self.countDigits(self.rawNumber)
+		print(f"Your number {self.rawNumber} has {numLength} digits")
+		digitArray = []
+
+
+		workingNum = self.rawNumber
+		for currentDigIdx in range(numLength-1, 0, -1):
+			denom = 10 ** currentDigIdx
+			currentDigit = workingNum // denom 
+			digitArray.append(currentDigit)
+			workingNum = workingNum - (currentDigit * denom) 
+
+		digitArray.append(workingNum)
+
+		for aDig in digitArray:
+				print(aDig)
 
 	def go(self):
-		print("go() Not yet implemented")
+		self.isSequence(self.rawNumber)
+
+			
 
 	def debugMsg(self, msg): 
 		if (self.bInDebug):
