@@ -21,6 +21,9 @@ POA SequenceDetect
 	- Implemented countDigits 
 	- Began isSequence(), populated digitArray and outputs it.
 
+03/02
+	- Fleshed out methods 
+	- added support for -debug command line parameter
 
 ==== Original Notes ===
 Original Notes from Field Notes 20231223 Pg 35
