@@ -25,6 +25,9 @@ POA SequenceDetect
 	- Fleshed out methods 
 	- added support for -debug command line parameter
 
+03/07
+	- Pulled to MDT and edited via VS Code
+
 ==== Original Notes ===
 Original Notes from Field Notes 20231223 Pg 35
 
