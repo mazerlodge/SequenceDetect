@@ -27,6 +27,10 @@ POA SequenceDetect
 
 03/07
 	- Pulled to MDT and edited via VS Code
+	
+05/24
+	- Added shell script for command line exec via: ./seqcheck.sh 456
+	- Added isOutOfOrderSequence() and call in SDE.go() 
 
 ==== Original Notes ===
 Original Notes from Field Notes 20231223 Pg 35
